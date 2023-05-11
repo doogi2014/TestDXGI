@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDXGI2", "TestDXGI2\TestDXGI2.vcxproj", "{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Debug|x64.ActiveCfg = Debug|x64
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Debug|x64.Build.0 = Debug|x64
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Debug|x86.Build.0 = Debug|Win32
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Release|x64.ActiveCfg = Release|x64
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Release|x64.Build.0 = Release|x64
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Release|x86.ActiveCfg = Release|Win32
+		{7EC83E1C-7448-45B2-8C6C-B4ADBF7AE5FC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DAA4632-3980-42AF-AA41-BB6D5AE0253E}
+	EndGlobalSection
+EndGlobal
