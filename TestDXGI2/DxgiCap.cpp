@@ -263,7 +263,7 @@ bool showSome(DXGI_OUTDUPL_FRAME_INFO FrameInfo)
 		{
 			//由于鼠标不动时Position会变成0，所以要使用全局变量
 			//判断visible为真时，也就是鼠标移动时，才对全局变量赋值
-			if (FrameInfo.PointerPosition.Visible)
+			if (FrameInfo.PointerPosition.Visible && FrameInfo.PointerPosition.Position.x >= 0 && FrameInfo.PointerPosition.Position.y >= 0)
 			{
 				mousePoint.x = FrameInfo.PointerPosition.Position.x;
 				mousePoint.y = FrameInfo.PointerPosition.Position.y;
